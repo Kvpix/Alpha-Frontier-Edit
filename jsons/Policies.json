@@ -634,7 +634,7 @@
 				"name": "Supremacy",
 				"uniques": [
 					"[+15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
-					"[+3 Faith] from every specialist [in all cities]"
+					"[+1 Faith] from every specialist [in all cities]"
 				],
 				"row": 1,
 				"column": 3
@@ -644,7 +644,7 @@
 				"uniques": [
 					"Upon capturing a city, receive [10] times its [Gold] production as [Gold] immediately",
 					"[-20]% Culture cost of natural border growth [in all cities]",
-					"[+2 Food, +1 Production, +2 Gold] from every specialist [in all cities]"
+					"[+1 Production] from every specialist [in all cities]"
 				],
 				"row": 1,
 				"column": 5
