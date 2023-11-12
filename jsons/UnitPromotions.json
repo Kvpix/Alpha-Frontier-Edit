@@ -41,9 +41,10 @@
 			"Dogfighting III",
 			"Interception III"],
 		"uniques": [
-			"[+10]% Strength",
-			"[+2] Strength",
+			"[+5]% Strength",
+			//"[+2] Strength",
 			"[+5]% Strength <when attacking>",
+			"[+5]% Strength <when below [25] HP>",
 			"Heal this unit by [15] HP"
 		],
 		"unitTypes": [
@@ -56,9 +57,10 @@
 		"name": "Experience II",
 		"prerequisites": ["Experience I"],
 		"uniques": [
-			"[+10]% Strength",
-			"[+2] Strength",
+			"[+5]% Strength",
+			//"[+2] Strength",
 			"[+5]% Strength <when attacking>",
+			"[+5]% Strength <when below [50] HP>",
 			"Heal this unit by [15] HP"
 		],
 		"unitTypes": [
@@ -71,9 +73,10 @@
 		"name": "Experience III",
 		"prerequisites": ["Experience II"],
 		"uniques": [
-			"[+10]% Strength",
-			"[+2] Strength",
+			"[+5]% Strength",
+			//"[+2] Strength",
 			"[+5]% Strength <when attacking>",
+			"[+5]% Strength <when below [60] HP>",
 			"Heal this unit by [15] HP"
 		],
 		"unitTypes": [
@@ -86,9 +89,10 @@
 		"name": "Experience IV",
 		"prerequisites": ["Experience III"],
 		"uniques": [
-			"[+10]% Strength",
-			"[+2] Strength",
+			"[+5]% Strength",
+			//"[+2] Strength",
 			"[+5]% Strength <when attacking>",
+			"[+5]% Strength <when below [70] HP>",
 			"Heal this unit by [15] HP"
 		],
 		"unitTypes": [
@@ -102,8 +106,9 @@
 		"prerequisites": ["Experience IV"],
 		"uniques": [
 			"[+10]% Strength",
-			"[+2] Strength",
-			"[+5]% Strength <when attacking>",
+			//"[+2] Strength",
+			"[+10]% Strength <when attacking>",
+			"[+10]% Strength <when below [80] HP>",
 			"Heal this unit by [15] HP"
 		],
 		"unitTypes": [
@@ -1067,8 +1072,10 @@
 		],
 		"uniques": [
 			"Data Uplinked",
-			"[+5]% Strength",
-			"[+5]% Strength <after discovering [Mind-Machine Interface]>",
+			"[+25]% Strength",
+			"[+25]% Strength <after discovering [Mind-Machine Interface]>",
+			//"[+5]% Strength",
+			//"[+5]% Strength <after discovering [Mind-Machine Interface]>",
 			"Consumes [1] [Digital Storage Space]",
 			"Consumes [1] [Digital Storage Space] <after discovering [Mind-Machine Interface]>"
 		],
