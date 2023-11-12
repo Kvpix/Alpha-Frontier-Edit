@@ -195,7 +195,8 @@
 			{
 				"name": "Cultural Variety",
 				"uniques": [
-					"Provides the cheapest [Culture] building in your first [4] cities for free"
+					"Provides the cheapest [Culture] building in your first [4] cities for free",
+					"[+1 Culture] per [4] population [in all cities]"
 				],
 				"requires": ["Diversity Festivals"],
 				"row": 2,
@@ -205,7 +206,9 @@
 				"name": "Diversity Complete",
 				"uniques": [
 					"[+1 Happiness] per [5] population [in all cities]",
-					"[+1 Culture] per [5] population [in all cities]"
+					"Free Social Policy",
+					//"[+1 Culture] per [5] population [in all cities]",
+					"Provides the cheapest [Faith] building in your first [4] cities for free"
 				]
 			}
 		]
@@ -234,8 +237,8 @@
 					"[+1 Happiness] from every [Colonial Patrol Station]",
 					"[+15]% Production when constructing [Military] units [in all cities]",
 					"[-33]% Gold cost of upgrading <for [Military] units>",
-					"[+25]% XP gained from combat <for [Military] units>",
-					"New [Military] units start with [10] Experience [in all cities]"
+					"[+50]% XP gained from combat <for [Military] units>",
+					//"New [Military] units start with [10] Experience [in all cities]"
 				],
 				"row": 1,
 				"column": 2
@@ -244,8 +247,8 @@
 				"name": "Esprit de Corps",
 				"uniques": [
 					"[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
-					"[+50]% XP gained from combat <for [Military] units>",
-					"New [Military] units start with [15] Experience [in all cities]"
+					//"[+50]% XP gained from combat <for [Military] units>",
+					"New [Military] units start with [25] Experience [in all cities]"
 				],
 				"row": 1,
 				"column": 4
@@ -263,8 +266,8 @@
 			{
 				"name": "Military Tactics",
 				"uniques": [
-					"[+75]% XP gained from combat <for [Military] units>",
-					"New [Military] units start with [25] Experience [in all cities]",
+					"[+100]% XP gained from combat <for [Military] units>",
+					"New [Military] units start with [40] Experience [in all cities]",
 					"Free [Great General] appears"
 				],
 				"requires": ["Professional Army"],
@@ -286,8 +289,8 @@
 				"name": "Tenacity Complete",
 				"uniques": [
 					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
-					"[+100]% XP gained from combat <for [Military] units>",
-					"New [Military] units start with [30] Experience [in all cities]",
+					"[+200]% XP gained from combat <for [Military] units>",
+					"New [Military] units start with [60] Experience [in all cities]",
 					"May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Colonization era]>"
 				]
 			}
@@ -424,7 +427,8 @@
 				"uniques": [
 					"[1] Free Technologies",
 					"[+100]% Gold from Great Merchant trade missions",
-					"[+1 Gold] from every specialist [in all cities]"
+					"[+1 Gold] from every specialist [in all cities]",
+					"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Colonization era]>"
 				]
 			}
 		]
@@ -543,7 +547,8 @@
 				"uniques": [
 					"[1] Free Technologies",
 					"[+1 Science] from every specialist [in all cities]",
-					"[+5 Science] from [Academy] tiles [in all cities]"
+					"[+5 Science] from [Academy] tiles [in all cities]",
+					"May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Colonization era]>"
 				]
 			}
 		]
