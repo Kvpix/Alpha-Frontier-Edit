@@ -26,6 +26,93 @@
         "column": 0
 	},
 
+	//	Experience Gain for all units
+	{
+		"name": "Experience I",
+		"prerequisites": [
+			"Shock III", 
+			"Drill III",
+			"Accuracy III",
+			"Barrage III",
+			"Terrain Cover III",
+			"Targeting II",
+			"Bombardment II",
+			"Wolfpack II",
+			"Dogfighting III",
+			"Interception III"],
+		"uniques": [
+			"[+10]% Strength",
+			"[+2] Strength",
+			"[+5]% Strength <when attacking>",
+			"Heal this unit by [15] HP"
+		],
+		"unitTypes": [
+			"Infantry","Stealth Infantry","Sniper","Scout","Rover","Hover","Armored","Siege","Close Range Water","Ranged Water","Submarine","Helicopter","Close Range Mech","Ranged Mech","Satellite"
+		],
+		"row": 0,
+        "column": 1
+	},
+	{
+		"name": "Experience II",
+		"prerequisites": ["Experience I"],
+		"uniques": [
+			"[+10]% Strength",
+			"[+2] Strength",
+			"[+5]% Strength <when attacking>",
+			"Heal this unit by [15] HP"
+		],
+		"unitTypes": [
+			"Infantry","Stealth Infantry","Sniper","Scout","Rover","Hover","Armored","Siege","Close Range Water","Ranged Water","Submarine","Helicopter","Close Range Mech","Ranged Mech","Satellite"
+		],
+		"row": 0,
+        "column": 2
+	},
+		{
+		"name": "Experience III",
+		"prerequisites": ["Experience II"],
+		"uniques": [
+			"[+10]% Strength",
+			"[+2] Strength",
+			"[+5]% Strength <when attacking>",
+			"Heal this unit by [15] HP"
+		],
+		"unitTypes": [
+			"Infantry","Stealth Infantry","Sniper","Scout","Rover","Hover","Armored","Siege","Close Range Water","Ranged Water","Submarine","Helicopter","Close Range Mech","Ranged Mech","Satellite"
+		],
+		"row": 0,
+        "column": 3
+	},
+		{
+		"name": "Experience IV",
+		"prerequisites": ["Experience III"],
+		"uniques": [
+			"[+10]% Strength",
+			"[+2] Strength",
+			"[+5]% Strength <when attacking>",
+			"Heal this unit by [15] HP"
+		],
+		"unitTypes": [
+			"Infantry","Stealth Infantry","Sniper","Scout","Rover","Hover","Armored","Siege","Close Range Water","Ranged Water","Submarine","Helicopter","Close Range Mech","Ranged Mech","Satellite"
+		],
+		"row": 0,
+        "column": 4
+	},
+		{
+		"name": "Experience V",
+		"prerequisites": ["Experience IV"],
+		"uniques": [
+			"[+10]% Strength",
+			"[+2] Strength",
+			"[+5]% Strength <when attacking>",
+			"Heal this unit by [15] HP"
+		],
+		"unitTypes": [
+			"Infantry","Stealth Infantry","Sniper","Scout","Rover","Hover","Armored","Siege","Close Range Water","Ranged Water","Submarine","Helicopter","Close Range Mech","Ranged Mech","Satellite"
+		],
+		"row": 0,
+        "column": 5
+	},
+
 	// Sniper + Siege
 	{
 		"name": "Accuracy I",
@@ -770,7 +857,8 @@
 			"Shock III",
 			"Drill III",
 			"Terrain Cover III",
-			"Dodge II"
+			"Dodge II",
+			"Supply"
 		],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": [
@@ -779,7 +867,8 @@
 			"Armored",
 			"Siege",
 			"Close Range Mech",
-			"Ranged Mech"
+			"Ranged Mech",
+			"Close Range Water", "Ranged Water", "Submarine", "Hover"
 		],
 		"row": 48,
         "column": 0
