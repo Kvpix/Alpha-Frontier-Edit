@@ -270,7 +270,7 @@
 					"New [Military] units start with [40] Experience [in all cities]",
 					"Free [Great General] appears"
 				],
-				"requires": ["Professional Army"],
+				"requires": ["Professional Army","Esprit de Corps"],
 				"row": 2,
 				"column": 3
 			},

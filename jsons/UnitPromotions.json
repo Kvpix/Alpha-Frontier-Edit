@@ -45,8 +45,8 @@
 		"uniques": [
 			"[+5]% Strength",
 			//"[+2] Strength",
-			"[+5]% Strength <when attacking>",
-			"[+5]% Strength <when below [25] HP>",
+			"[+5]% Strength <when defending>",
+			"[+10]% Strength <when below [25] HP>",
 			"Heal this unit by [15] HP"
 		],
 		"unitTypes": [
@@ -61,7 +61,7 @@
 		"uniques": [
 			"[+5]% Strength",
 			//"[+2] Strength",
-			"[+5]% Strength <when attacking>",
+			"[+5]% Strength <when defending>",
 			"[+5]% Strength <when below [50] HP>",
 			"Heal this unit by [15] HP"
 		],
@@ -77,7 +77,7 @@
 		"uniques": [
 			"[+5]% Strength",
 			//"[+2] Strength",
-			"[+5]% Strength <when attacking>",
+			"[+5]% Strength <when defending>",
 			"[+5]% Strength <when below [60] HP>",
 			"Heal this unit by [15] HP"
 		],
@@ -93,7 +93,7 @@
 		"uniques": [
 			"[+5]% Strength",
 			//"[+2] Strength",
-			"[+5]% Strength <when attacking>",
+			"[+5]% Strength <when defending>",
 			"[+5]% Strength <when below [70] HP>",
 			"Heal this unit by [15] HP"
 		],
@@ -107,10 +107,10 @@
 		"name": "Experience V",
 		"prerequisites": ["Experience IV"],
 		"uniques": [
-			"[+10]% Strength",
+			"[+5]% Strength",
 			//"[+2] Strength",
-			"[+10]% Strength <when attacking>",
-			"[+10]% Strength <when below [80] HP>",
+			"[+5]% Strength <when defending>",
+			"[+5]% Strength <when below [80] HP>",
 			"Heal this unit by [15] HP"
 		],
 		"unitTypes": [
@@ -1074,8 +1074,8 @@
 		],
 		"uniques": [
 			"Data Uplinked",
-			"[+25]% Strength",
-			"[+25]% Strength <after discovering [Mind-Machine Interface]>",
+			"[+30]% Strength",
+			"[+30]% Strength <after discovering [Mind-Machine Interface]>",
 			//"[+5]% Strength",
 			//"[+5]% Strength <after discovering [Mind-Machine Interface]>",
 			"Consumes [1] [Digital Storage Space]",
