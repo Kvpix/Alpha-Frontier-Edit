@@ -248,7 +248,7 @@
 				"uniques": [
 					"[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
 					//"[+50]% XP gained from combat <for [Military] units>",
-					"New [Military] units start with [25] Experience [in all cities]"
+					"New [Military] units start with [15] Experience [in all cities]"
 				],
 				"row": 1,
 				"column": 4
@@ -267,7 +267,7 @@
 				"name": "Military Tactics",
 				"uniques": [
 					"[+100]% XP gained from combat <for [Military] units>",
-					"New [Military] units start with [40] Experience [in all cities]",
+					"New [Military] units start with [25] Experience [in all cities]",
 					"Free [Great General] appears"
 				],
 				"requires": ["Professional Army","Esprit de Corps"],
@@ -290,7 +290,7 @@
 				"uniques": [
 					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
 					"[+200]% XP gained from combat <for [Military] units>",
-					"New [Military] units start with [60] Experience [in all cities]",
+					"New [Military] units start with [50] Experience [in all cities]",
 					"May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Colonization era]>"
 				]
 			}
