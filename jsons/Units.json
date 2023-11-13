@@ -894,7 +894,8 @@
 		//"requiredResource": "Digital Storage Space",
 		"uniques": [
 			"[+10]% Strength bonus for [Military] units within [2] tiles",
-			"[+15]% Strength bonus for [Data Uplinked] units within [2] tiles",
+			"[+35]% Strength bonus for [Data Uplinked] units within [2] tiles",
+			//"[+15]% Strength bonus for [Data Uplinked] units within [2] tiles",
 			"[+10]% Strength bonus for [Military] units within [2] tiles <after discovering [Mind-Machine Interface]>",
 			"[+10]% Strength bonus for [Military] units within [2] tiles <after discovering [Artificial Intelligence]>",
 			"Consumes [1] [Digital Storage Space]",
