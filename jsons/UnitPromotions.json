@@ -46,7 +46,7 @@
 			"[+5]% Strength",
 			//"[+2] Strength",
 			"[+5]% Strength <when defending>",
-			"[+10]% Strength <when below [25] HP>",
+			"[+10]% Strength <when below [40] HP>",
 			"Heal this unit by [15] HP"
 		],
 		"unitTypes": [
@@ -88,12 +88,12 @@
         "column": 3
 	},
 		{
-		"name": "Experience IV",
+		"name": "Veteran I",
 		"prerequisites": ["Experience III"],
 		"uniques": [
 			"[+5]% Strength",
 			//"[+2] Strength",
-			"[+5]% Strength <when defending>",
+			"[+10]% Strength <when defending>",
 			"[+5]% Strength <when below [70] HP>",
 			"Heal this unit by [15] HP"
 		],
@@ -104,13 +104,29 @@
         "column": 4
 	},
 		{
-		"name": "Experience V",
-		"prerequisites": ["Experience IV"],
+		"name": "Veteran II",
+		"prerequisites": ["Veteran I"],
 		"uniques": [
 			"[+5]% Strength",
 			//"[+2] Strength",
-			"[+5]% Strength <when defending>",
+			"[+10]% Strength <when defending>",
 			"[+5]% Strength <when below [80] HP>",
+			"Heal this unit by [15] HP"
+		],
+		"unitTypes": [
+			"Infantry","Stealth Infantry","Sniper","Scout","Rover","Hover","Armored","Siege","Close Range Water","Ranged Water","Submarine","Helicopter","Close Range Mech","Ranged Mech","Satellite"
+		],
+		"row": 0,
+        "column": 5
+	},
+		{
+		"name": "Veteran III",
+		"prerequisites": ["Veteran II"],
+		"uniques": [
+			"[+10]% Strength",
+			//"[+2] Strength",
+			"[+10]% Strength <when defending>",
+			//"[+5]% Strength <when below [80] HP>",
 			"Heal this unit by [15] HP"
 		],
 		"unitTypes": [
